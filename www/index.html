@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: content: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+    <script src="cordova.js"></script>
+    <script src="components/loader.js"></script>
+    <link rel="stylesheet" href="components/loader.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+    </script>
+</head>
+<body bgcolor = #9CC4B2>
+    <table>
+        <tr>
+            <th><input type="text" id="searchbar" name="searchbar"></th>
+            <th><input type="button" value="pesquisar" name="pesquisar"></th>
+        </tr>
+        <tr>
+            <th>Palavra: <a id="visor1"></a></th>
+            <th><input type="button" value="editar" name="editar"></th>
+        </tr>
+            <th>Número: <a id="visor2"></a></th>
+            <th><input type="button" value="excluir" name="excluir"></th>
+        </tr>
+    </table>
+    <button onclick="location.href='cadastrar.html'" type="button">Cadastro</button>
+</body>
+</html>
